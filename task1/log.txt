@@ -1,0 +1,11 @@
+commit 96593e8c3fff672e7dcbb3cd2ac3116abccee74c (HEAD -> master)
+Author: ann-zhuravskaya <an.zhur1999@gmail.com>
+Date:   Mon Feb 12 18:14:16 2018 +0300
+
+    add task1/status.txt
+
+commit a478ba75721489b06358031bbe030f500ca7dc3c
+Author: ann-zhuravskaya <an.zhur1999@gmail.com>
+Date:   Mon Feb 12 18:13:05 2018 +0300
+
+    ad  .gitignore
