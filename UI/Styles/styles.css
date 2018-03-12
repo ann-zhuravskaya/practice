@@ -1,0 +1,178 @@
+body{
+	font-family: 'Abril Fatface', cursive;/*основной шрифт*/
+	font-size: 12pt;/*размер шрифта по умолчанию*/
+	margin: 0px;
+	color:#333333;
+}
+
+header{
+	position: fixed;/*Фиксированное положение*/
+	left: 0;/*Левый верхний угол*/
+	top:0;
+	width: 100%;
+	font-size: 200%;
+}
+
+header > div{
+	height: 30pt;/* Высота блоков по умолчанию*/
+}
+
+.header-edges {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.site-name{
+	background: #f3f3f3;
+	text-align: center;
+	color:#333333;
+	height: 120%;
+}
+
+.half-oval {
+	height: 170%;
+	width: 100%;
+	background: #f3f3f3;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 0 0 50% 50% / 0 0 100% 100%;/**/
+	display: flex; /*Для возможности расположить img в центре*/
+    justify-content: center;
+}
+
+.half-oval > img{
+	vertical-align: middle;
+	align-self:center;
+}
+
+.circle{
+	height: 60%;
+	border-radius: 50%;
+}
+
+.icon{
+	height: 40%;
+}
+
+.main-area {
+
+  display: flex;
+  flex-wrap: nowrap;
+  height: auto;
+}
+
+.photo-tape{
+	width: 200%;
+}
+
+
+.first-publication{
+	height: 100pt;
+}
+
+.last-publication{
+	height: 50px;
+}
+
+.shift-publication {
+	height: 10pt;
+}
+
+.publication{
+	height: auto;
+	width: 100%;
+}
+
+.photo{
+	height: auto;
+	display: flex; 
+    justify-content: center;
+}
+
+.photo > img{
+	width: 90%;
+	align-self:center;
+}
+
+.date-and-options{
+	height: 30pt;
+	width: 100%;
+	display: flex;
+  	flex-wrap: nowrap;
+}
+
+.user-name{
+	height: 100%;
+	align-self: center;
+	width: 30%;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.user-photo{
+	height: 115%;
+	width: 15%;
+	display: flex; /*Для возможности расположить img в центре*/
+    justify-content: flex-end;
+}
+
+.option {
+	height: 100%;
+	width: 7%;
+	padding-top: 5px;
+}
+
+.user-photo > img{
+	vertical-align: middle;
+	align-self:center;
+	height: 80%;
+	border-radius: 50%;
+}
+
+.option > img{
+	vertical-align: middle;
+	align-self:center;
+	height: 80%;
+}
+
+.date{
+	width: 20%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.left-panel{
+	width: 50%;
+	background:#ffffb3;
+}
+
+.right-panel{
+	width: 50%;
+	background:#ffffb3;
+}
+
+footer {
+	font-family: 'Indie Flower', cursive;
+	font-size: 80%;
+	/*как лучше сдеалть футер? фиксированное положение или оставить в конце страницы*/
+    position: fixed; /* Фиксированное положение*/
+    left: 0; 
+    bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #f1ebfa; /* Цвет фона */
+    color: #888; 
+    width: 100%; /* Ширина слоя */
+    display: inline-flex; /* Расположение блоков в строку */
+   }
+
+.footer-date-and-author-info{
+	margin-left: 10px;
+	float: left;
+	width: 100%;
+}
+
+.footer-author-email{
+	margin-right: 10px;
+	padding-right: 20px;
+	float: right;
+}
